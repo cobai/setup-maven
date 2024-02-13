@@ -6,5 +6,5 @@ inputs:
     description: 'Version Spec of the version to use.  Examples: 3.6.3'
     default: '3.6.3'
 runs:
-  using: 'node16'
+  using: 'node20'
   main: 'lib/setup-maven.js'
